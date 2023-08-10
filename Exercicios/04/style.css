@@ -1,0 +1,23 @@
+.container {
+    display: inline-block;
+    width: 400px;
+    height: 800px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 20px;
+    
+}
+
+.quadrado {
+    display: flex;
+    border: 1px, solid, black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 220px;
+}
+ img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ }
