@@ -1,23 +1,110 @@
-.container {
-    display: inline-block;
-    width: 400px;
-    height: 800px;
-    background-color: rgb(53, 52, 52);
-    border-radius: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: auto;
     
+    background-image: linear-gradient(to bottom , rgb(21, 179, 129) , aquamarine);
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.container {
+    margin: 20px;    
+    width: 400px;
+    height: 700px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 30px;
+    box-shadow:
+     rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .quadrado {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px, solid, black;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 375px;
     margin: auto;
     top: 220px;
 }
- img {
-    width: 200px;
-    height: 200px;
+
+img {
+    border: 2px solid rgb(206, 212, 208);
+    box-shadow:
+     rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 12px 13px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 275px;
+    height: 275px;
     border-radius: 50%;
  }
+
+ .titulo {
+    font-family: 'Satisfy', cursive;
+    font-size: 22pt;
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    margin-bottom: 10px;
+}
+
+.resumo {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+
+ }
+
+.btn {
+    display: flex;
+    align-items: center;
+    height: 132px;
+}
+
+.btn>button  {
+    cursor: pointer;
+    margin: auto;
+    background-color: rgb(89, 201, 167);
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+.btn > button :hover {
+    color: rgb(114, 105, 20);
+    transition: .5s;
+
+}
+
+.btn > button > a {
+    text-decoration: none;   
+    font-family: 'Satisfy', cursive;
+    color: aliceblue;
+    font-size: 20pt;
+    width: 100%;
+    padding: 10px 120px;
+}
