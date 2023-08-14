@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container-principal {
+    width: 1200px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(140, 207, 209);
+}
+
