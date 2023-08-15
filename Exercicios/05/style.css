@@ -4,11 +4,94 @@
 }
 
 #container-principal {
-    width: 1200px;
+    width: 1300px;
+    margin: auto;
 }
 
 header {
     display: flex;
     background-color: rgb(140, 207, 209);
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#menu > ul {
+    display: flex;
+}
+
+#menu > ul > li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+#menu > ul > li > a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+#logo {
+    background-image: url('img/flower.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-01 {
+    display: flex;
+}
+
+#box-01 {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(140, 207, 209), rgb(82, 169, 173));
+    width: 100%;
+    height: 800px;
+}
+
+
+.box-img {
+    border-radius: 20px;
+    height: 100%;
+    width: 650px;
+    background-image: url(img/img01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#txt {
+    width: 600px;
+    margin: 20px 20px;
+}
+
+#txt > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+#txt > p {
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+#container-02 {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to bottom, rgb(82, 169, 173), rgb(82, 173, 153) );
+    padding-top: 40px;
+}
+#box-img-2 {
+    background-image: url(img/img02.jpg);
 }
 
