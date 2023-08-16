@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+@keyframes animacao {
+    from {
+        background-color: yellowgreen;
+        
+    }
+    to  {
+        background-color: rgb(109, 50, 205);
+        
+    }
+}
+
+@keyframes animacao-txt {
+    from {
+        color: black;
+    }
+    to {
+        color: rgb(182, 179, 201);
+    }
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100vw;
+    height: 350px;
+    background-color: yellowgreen;
+    margin: auto;
+    animation-name: animacao;
+    animation-duration: 2.75s;
+    text-align: center;
+}
+
+.box h1 {
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 110px;
+    height: 110px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#txt {
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+#txt p {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 8.5pt;
+    animation-name: animacao-txt;
+    animation-duration: 2.75s;
+}
+
+.box button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.box button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+    color: gray;
+}
