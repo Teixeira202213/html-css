@@ -35,8 +35,9 @@
     /*background-image: linear-gradient(to bottom yellowgreen rgb(87, 116, 29));*/
     margin: auto;
     animation-name: animacao;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
     text-align: center;
 }
 
@@ -71,8 +72,9 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 15pt;
     animation-name: animacao-txt;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .box button {
