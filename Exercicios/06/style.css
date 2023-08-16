@@ -28,11 +28,11 @@
 
 .box {
     width: 100vw;
-    height: 350px;
+    height: 100vh;
     background-color: yellowgreen;
     margin: auto;
     animation-name: animacao;
-    animation-duration: 2.75s;
+    animation-duration: 4s;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30pt;
     margin-bottom: 10px;
 }
 
@@ -63,9 +63,9 @@
 #txt p {
     color: black;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 8.5pt;
+    font-size: 15pt;
     animation-name: animacao-txt;
-    animation-duration: 2.75s;
+    animation-duration: 4s;
 }
 
 .box button {
