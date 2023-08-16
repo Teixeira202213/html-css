@@ -3,10 +3,12 @@
 @keyframes animacao {
     from {
         background-color: yellowgreen;
+        /*background-image: linear-gradient(to bottom yellowgreen rgb(87, 116, 29));*/
         
     }
     to  {
         background-color: rgb(109, 50, 205);
+        /*background-image: linear-gradient(to bottom rgb(109, 50, 205) rgb(48, 22, 90));*/
         
     }
 }
@@ -30,6 +32,7 @@
     width: 100vw;
     height: 100vh;
     background-color: yellowgreen;
+    /*background-image: linear-gradient(to bottom yellowgreen rgb(87, 116, 29));*/
     margin: auto;
     animation-name: animacao;
     animation-duration: 4s;
